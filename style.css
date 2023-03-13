@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(debu.jpg) no-repeat center center fixed; /*this line is very useful for full backgrounf image*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    font-size: 3rem;
+    color: #A5A5A5;
+}
+
+hr{
+	border-color: #555555;
+	border-width: 3px;
+	max-width: 65px;
+}
+.buffer
+{
+	height: 19rem;
+}
+.btn
+{
+	font-weight: 700;
+	border-radius : 300px;
+	text-transform: uppercase;
+}
+.btn-secondary
+{
+	background-color: #555555;
+	border-color: #555555;
+}
+
+.btn-secondary:hover
+{
+	border-width: 4px;
+}
+.btn-xl
+{
+	padding: 1rem 2rem;
+}
